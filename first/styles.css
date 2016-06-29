@@ -1,0 +1,14 @@
+.main-header {
+    display: flex;
+    justify-content: space-around;
+}
+.top-box {
+    width: 30%;
+    height: 200px;
+}
+.top-box:nth-child(even) {
+    background: gray;
+}
+.top-box:nth-child(odd) {
+    black
+}

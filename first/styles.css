@@ -4,11 +4,48 @@
 }
 .top-box {
     width: 30%;
-    height: 200px;
+    height: 100px;
 }
 .top-box:nth-child(even) {
     background: gray;
 }
 .top-box:nth-child(odd) {
-    black
+    background: black;
+}
+.content {
+    width: 97%;
+    margin: auto;
+    padding:10px 0 10px 0;
+}
+
+.column-container {
+    display: flex;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.column-left {
+    background: red;
+    width: 33.3%;
+}
+.column-right {
+    width: 66.7%;
+    background: blue;
+}
+
+.column-left-bottom {
+    width: 66.7%;
+    background: blue;
+}
+
+.column-right-bottom {
+    background: red;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-box {
+    width:80%;
+    background: darkgray;
 }

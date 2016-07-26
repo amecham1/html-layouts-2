@@ -1,9 +1,16 @@
+body{
+  background-color: #D8D8D8
+}
+
 .top-section{
   width: 90%;
   height: 30vh;
-  margin: auto;
+  margin: 20px auto 30px auto;
   background: white;
-  padding: 30px;
+}
+.top-section p {
+  text-align: left;
+  padding: 30px 20px 20px 20px;
 }
 .btn{
   width: 100px;
@@ -11,36 +18,59 @@
   color:#fff;
   border-radius: 0;
   border: none;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 .btn1{
-  background: red;
+  background: #D0021B;
 }
 .btn2{
-  background:blue;
+  background:#5C90E2;
 }
+
+/*Start of Mid Section*/
 .mid-section{
   width: 90%;
-  margin: auto;
+  height: 55vh;
+  margin: 20px auto 10px auto;
   background: white;
-  padding: 30px;
-  text-align: center;
+  position: relative;
 }
 .image-container{
   width: 90%;
-  margin: auto;
-  background: url(https://images.unsplash.com/photo-1465326117523-6450112b60b2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f340b4d4a364ac53dcb92955373fc5e0)center no-repeat;
+  height: 30vh;
+  background-image: url("https://images.unsplash.com/photo-1468245856972-a0333f3f8293?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=34e89b07aca66f94db009af4ae5505bf");
+  background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 20px;
+  background-position: center;
+  position: absolute;
+  top: 25px;
+  left: 27px;
 }
+.mid-section p {
+  position: absolute;
+  bottom: 25px;
+  padding: 0 30px 0 25px;
+  text-align: left;
+}
+
+/* Start of Footer */
+
 footer{
   position: fixed;
   bottom: 0;
-  background: darkgray;
+  background-color: #333333;
   width: 100%;
   height: 50px;
 }
 
 footer ul li {
-  display: inline-block;
-  color:#fff
+  display: inline-flex;
+  /*flex-direction: row;*/
+  /*justify-content: flex-end;*/
+  /*flex-wrap: wrap;*/
+  color:#fff;
+  float: right;
+  padding-right: 50px;
 }
